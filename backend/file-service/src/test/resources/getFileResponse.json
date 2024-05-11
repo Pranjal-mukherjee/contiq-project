@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "fileId": 10,
+      "fileName": "contiq.pdf",
+      "filePath": "/files/contiq.pdf",
+      "uploadedAt": "2023-10-13",
+      "fileType": "pdf",
+      "userId": 1
+    },
+    {
+      "fileId": 11,
+      "fileName": "contiq2.pdf",
+      "filePath": "/files/contiq2.pdf",
+      "uploadedAt": "2023-10-14",
+      "fileType": "pdf",
+      "userId": 1
+    },
+    {
+      "fileId": 12,
+      "fileName": "contiq3.pdf",
+      "filePath": "/files/contiq3.pdf",
+      "uploadedAt": "2023-10-15",
+      "fileType": "pdf",
+      "userId": 1
+    },
+    {
+      "fileId": 13,
+      "fileName": "contiq4.pdf",
+      "filePath": "/files/contiq4.pdf",
+      "uploadedAt": "2023-10-17",
+      "fileType": "pdf",
+      "userId": 1
+    },
+    {
+      "fileId": 17,
+      "fileName": "contiq6.pdf",
+      "filePath": "/files/contiq6.pdf",
+      "uploadedAt": "2023-12-28",
+      "fileType": "pdf",
+      "userId": 1
+    },
+    {
+      "fileId": 18,
+      "fileName": "contiq7.pdf",
+      "filePath": "/files/contiq7.pdf",
+      "uploadedAt": "2023-12-27",
+      "fileType": "pdf",
+      "userId": 1
+    },
+    {
+      "fileId": 19,
+      "fileName": "contiq7.pdf",
+      "filePath": "/files/contiq7.pdf",
+      "uploadedAt": "2023-12-28",
+      "fileType": "pdf",
+      "userId": 1
+    }
+  ]
+}

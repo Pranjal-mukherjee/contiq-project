@@ -1,0 +1,95 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "userName": "John Smith",
+      "email": "john@example.com",
+      "password": "john123"
+    },
+    {
+      "id": 2,
+      "userName": "Amit Patel",
+      "email": "amit@example.com",
+      "password": "amit456"
+    }
+  ],
+  "file": [
+    {
+      "id": 1,
+      "name": "contiq1.pdf",
+      "type": "pdf",
+      "filePath": "./files/contiq1.pdf",
+      "uploadedAt": "12-12-2023 10:59",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "name": "company_agreement.pdf",
+      "type": "pdf",
+      "filePath": "./files/company_agreement.pdf",
+      "uploadedAt": "12-12-2023 11:30",
+      "user_id": 2
+    },
+    {
+      "id": 3,
+      "name": "project_proposal.docx",
+      "type": "docx",
+      "filePath": "./files/project_proposal.docx",
+      "uploadedAt": "13-12-2023 09:45",
+      "user_id": 1
+    },
+    {
+      "id": 4,
+      "name": "presentation.pptx",
+      "type": "pptx",
+      "filePath": "./files/presentation.pptx",
+      "uploadedAt": "14-12-2023 15:20",
+      "user_id": 2
+    },
+    {
+      "id": 5,
+      "name": "budget.xlsx",
+      "type": "xlsx",
+      "filePath": "./files/budget.xlsx",
+      "uploadedAt": "15-12-2023 08:10",
+      "user_id": 1
+    }
+  ],
+  "Notification": [
+    {
+      "id": 1,
+      "created_at": "12-12-2023 10:59",
+      "notification_message": "Amit has uploaded company_agreement.pdf",
+      "is_read": false,
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "created_at": "13-12-2023 09:45",
+      "notification_message": "John has uploaded project_proposal.docx",
+      "is_read": false,
+      "user_id": 2
+    },
+    {
+      "id": 3,
+      "created_at": "14-12-2023 15:20",
+      "notification_message": "Amit has uploaded presentation.pptx",
+      "is_read": false,
+      "user_id": 1
+    },
+    {
+      "id": 4,
+      "created_at": "15-12-2023 08:10",
+      "notification_message": "John has uploaded budget.xlsx",
+      "is_read": false,
+      "user_id": 2
+    },
+    {
+      "id": 5,
+      "created_at": "16-12-2023 12:45",
+      "notification_message": "Amit has uploaded a new file",
+      "is_read": false,
+      "user_id": 1
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+    "settings": {
+    "react": {
+    "version": "detect"
+    }
+    },
+    "env": {
+    "browser": true,
+    "es2021": true
+    },
+    "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/jsx-runtime",
+    "react-app",
+    "plugin:jest-dom/recommended",
+    "plugin:storybook/recommended"
+    ],
+    "overrides": [
+    {
+    "files": [
+    "/tests//.[jt]s?(x)",
+    "**/?(.)+(spec|test).[jt]s?(x)"
+    ],
+    "extends": [
+    "plugin:testing-library/react"
+    ]
+    }
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+    "ecmaFeatures": {
+    "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+    },
+    "plugins": [
+    "react",
+    "@typescript-eslint",
+    "jest-dom",
+    "testing-library"
+    ],
+    "ignorePatterns": [
+    "build",
+    "coverage",
+    "dist",
+    "webpack/*.js",
+    "paths.js"
+    ]
+    }
+    
+    

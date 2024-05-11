@@ -1,0 +1,11 @@
+.vscode
+.idea
+dist
+node_modules
+coverage
+build/
+storybook-static
+build-storybook.log
+package-lock.json
+.env
+/public/webviewer/*

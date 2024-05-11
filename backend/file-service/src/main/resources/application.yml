@@ -1,0 +1,59 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: FILE-SERVICE
+  cloud:
+    gcp:
+      project-id: contiq-406712
+      credentials:
+        location: classpath:serviceAccount.json
+  config:
+    import: optional:classpath:.env[.properties]
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${DB_URL}
+    username: ${DB_ROOT}
+    password: ${DB_PASSWORD}
+    # hikari:
+    #   maxLifeTime: 600000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  flyway:
+    baselineOnMigrate: true
+    locations: classpath:db/migration
+    validate-on-migrate: false
+    encoding: UTF-8
+    out-of-order: true
+  data:
+    elasticsearch:
+      cluster-names: ${ELASTIC_SEARCH_CLUSTER_NAME}
+      cluster-node: https://bc138elastic.bootcamp64.tk/
+      auto-index: true
+      repositories:
+        enabled: true
+file:
+  storage:
+    base: ./uploads
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+elasticsearch:
+  host: ${ELASTIC_SEARCH_HOST}
+  port: ${ELASTIC_SEARCH_PORT}
+  username: ${ELASTIC_SEARCH_USERNAME}
+  password: ${ELASTIC_SEARCH_PASSWORD}
+  truststore:
+    path: /home/saiv/Desktop/truststore.jks
+    password: changeit

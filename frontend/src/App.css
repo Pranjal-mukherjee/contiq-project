@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Manrope";
+  src: url(../public/assets/fonts/Manrope-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  height: "100vh";
+}
